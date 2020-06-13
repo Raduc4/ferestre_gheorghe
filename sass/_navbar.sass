@@ -1,0 +1,60 @@
+.header
+	&-language
+		&__item:not(:last-child)
+			margin-right: 1rem
+	&-block
+		display: flex
+		justify-content: space-between
+		align-items: center
+	&-logo
+		&__item
+			width: 100px
+			height: 100px	
+	.nav
+		.list-block
+			display: flex
+			flex-direction: row
+			list-style: none
+			align-items: center
+			&__link
+				justify-content: space-between
+				text-decoration: none
+				a 
+					color: #ffffff
+					margin-right: 5rem
+					text-decoration: none
+
+
+
+@media (max-width: 1199px)
+	.button	
+		display: none
+@media (max-width: 768px)
+	.title
+		font-size: 28px
+	.header
+		&-block
+			display: flex
+			flex-direction: column
+
+		&-language
+			&__item
+				display: inline-block
+				margin: 0 auto
+				margin-right: 2rem
+		.nav
+			.list-block
+				padding: 0
+				width: 100%
+				&__link
+					a 
+						display: flex
+						flex-direction: column
+						justify-content: space-between
+						margin-right: 25px
+						font-size: 13px
+						text-align: center
+						align-items: center
+
+	
+	

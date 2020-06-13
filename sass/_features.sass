@@ -1,0 +1,92 @@
+.feautures
+	padding: 66px
+	text-align: center
+.feauture-block
+	display: flex
+	justify-content: space-between
+	align-items: center
+.feature__text
+	display: flex
+	align-items: center
+	width: 120px
+	font-size: 14px;
+	line-height: 16px;
+	text-align: center;
+	color: #FFFFFF;
+	text-align: center
+.feature__title
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 19px;
+	color: #FFFFFF;
+	text-align: center
+
+.feature-img
+	display: block
+	margin: auto
+	align-items: center
+
+.video
+	&-frame
+		display: block
+		margin: auto
+		border-radius: 65px
+
+.social-block
+	display: flex
+	width: 520px
+	justify-content: space-between
+	margin: 0 auto
+	margin-top: 120px
+	transform: translateY(1.5rem)
+
+.map-frame
+	display: block
+	width: 90%
+	height: 450px
+	margin: 0 auto
+	border-radius: 65px
+	margin-top: 66px
+	z-index: 99
+	transform: translateY(7rem)
+
+.descr
+	text-align: center
+	font-weight: 500;
+	font-size: 36px;
+	line-height: 42px;
+	color: #ffffff
+	margin: 66px
+	span 
+		font-weight: bold
+		font-size: 36px
+		line-height: 43px
+
+
+@media (max-width: 991px)
+	.feauture-block
+		display: flex
+		flex-basis: 30%
+		flex-wrap: wrap
+
+@media (max-width: 768px)
+	.social-block
+		flex-direction: column
+		justify-content: center
+		align-items: center
+		width: 100%
+		&__link:not(:last-child)
+			margin-bottom: 60px
+
+@media (max-width: 410px)
+	.feauture-block
+		justify-content: center
+		align-items: center
+		text-align: center
+		.feauture-item
+			display: block
+			margin: 0 auto
+			margin-bottom: 60px
+			text-align: center
+			align-items: center
+			justify-content: center

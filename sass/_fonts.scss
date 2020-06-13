@@ -1,0 +1,29 @@
+@font-face {
+	font-family: 'Rubik Bold';
+	src: url('../fonts/Rubik-Bold.eot');
+	src: url('../fonts/Rubik-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Rubik-Bold.woff') format('woff'),
+		url('../fonts/Rubik-Bold.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Roboto Regular';
+	src: url('Roboto-Regular.eot');
+	src: url('Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+		url('Roboto-Regular.woff') format('woff'),
+		url('Roboto-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@mixin rubik {
+	font-family: 'Rubik Bold', sans-serif;
+	font-weight: 700;
+}
+
+@mixin roboto {
+	font-family: 'Roboto Regular',sans-serif;
+	font-weight: 400;
+}
